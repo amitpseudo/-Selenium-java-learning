@@ -19,6 +19,21 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+# Ignore folders
+/target/
+build/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Driver executables
+chromedriver.exe
+
+# Test output
+test-output/
